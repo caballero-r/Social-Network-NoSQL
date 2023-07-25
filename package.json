@@ -1,0 +1,19 @@
+{
+  "name": "social-network-nosql",
+  "version": "1.0.0",
+  "description": "<!-- Place holder for resources used  1. Express JS: https://www.npmjs.com/package/express  2. Mongoose: https://www.npmjs.com/package/mongoose  3. Instructor Example, nosql-pokemon: https://github.com/alimaqsood19/nosql-pokemon  4. Mongoose JS: https://mongoosejs.com/docs/  -->",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon server.js",
+    "seed": "node seeds/seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.9",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.1"
+  }
+}
