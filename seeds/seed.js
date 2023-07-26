@@ -36,41 +36,9 @@ connection.once('open', async () => {
         },
     ]
 
-    // Example data for our thoughts
-    const exampleThoughts = [
-        {
-            thoughtText: "My name is John, I like ...",
-            username: "John",
-            reactions: [],
-        },
-        {
-            thoughtText: "My name is Smith, I like ...",
-            username: "Smith",
-            reactions: [],
-        },
-        {
-            thoughtText: "My name is Jane, I like ...",
-            username: "Jane",
-            reactions: [],
-        },
-        {
-            thoughtText: "My name is Doe, I like ...",
-            username: "Doe",
-            reactions: [],
-        },
-    ]
-
     Users.insertMany(exampleUsers)
     .then((results) => {
         console.log('The following user data has been added to the database:', results);
-    })
-    .catch((error) => {
-        console.log('An error has occurred:', error);
-    });
-
-    Thoughts.insertMany(exampleThoughts)
-    .then((results) => {
-        console.log('The following thoughts data has been added to the database:', results);
     })
     .catch((error) => {
         console.log('An error has occurred:', error);
