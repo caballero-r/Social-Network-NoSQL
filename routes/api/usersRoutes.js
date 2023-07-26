@@ -1,4 +1,4 @@
-// Import require
+// Import required
 const router = require('express').Router();
 
 const {
