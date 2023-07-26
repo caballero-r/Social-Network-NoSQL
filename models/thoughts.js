@@ -1,5 +1,5 @@
 // Import required
-const { Schema, model, SchemaType } = require('mongoose');
+const { Schema, model, Types } = require('mongoose');
 const dayjs = require('dayjs');
 
 // Date formatting function
@@ -36,7 +36,7 @@ const reactionSchema = new Schema (
     }
 );
 
-const thoughtsSchema = new Schema (
+const thoughtSchema = new Schema (
     {
         thoughtText: {
             type: String,
@@ -64,10 +64,10 @@ const thoughtsSchema = new Schema (
 );
 
 //Virtual for reactionCount that retrieves the length of the thought's reaction
-thoughtsSchema.virtual('reactionCount').get(function() {
+thoughtSchema.virtual('reactionCount').get(function () {
     return this.reactions.length;
-})
+});
 
-const Thoughts = model('thoughts', thoughtsSchema);
+const Thought = model('thought', thoughtSchema);
 
-module.exports = Thoughts;
+module.exports = Thought;

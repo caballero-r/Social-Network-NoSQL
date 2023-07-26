@@ -7,4 +7,8 @@
  4. Mongoose JS: https://mongoosejs.com/docs/
  5. Email Regex: Module 17 Challenge 
  6. Day JS: https://www.npmjs.com/package/dayjs & https://day.js.org/docs/en/display/format 
- -->
+ 
+ 
+ Contributors:
+ 1. caballero-r
+ 2. Shaun-Nelson - Assisted to bugs in my code-->
