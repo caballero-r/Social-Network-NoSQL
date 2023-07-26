@@ -12,9 +12,9 @@ In this project we have built an API for a social network where users can create
 
 - Demo
 
-Link to demo video: 
+Link to demo video: https://drive.google.com/file/d/1aMdfa4KvHadVCocbw8Z2E8z9R7TTgVuI/view
 
-![Preview of Demo]()
+![Preview of Demo](./utils/img/Screenshot%202023-07-26%20at%203.19.05%20PM.png)
 
 
 ## Resources
